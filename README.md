@@ -7,17 +7,20 @@ The YouTube Video Summarizer is an innovative solution designed to enhance the l
 
 ## How It Works
 
-Input: Users enter a YouTube video link through the Streamlit web interface.
-Transcript Extraction: The script extracts the transcript of the video using the YouTube Transcript API.
-Summary Generation: Google's Gemini Pro model processes the transcript with a predefined prompt to generate a summary that highlights key points in 250 words or less.
-Display: The summary is then presented to the user, offering a quick and insightful overview of the video's content.
+1. Input: Users enter a YouTube video link through the Streamlit web interface.
+2. Transcript Extraction: The script extracts the transcript of the video using the YouTube Transcript API.
+3. Summary Generation: Google's Gemini Pro model processes the transcript with a predefined prompt to generate a summary that highlights key points in 250 words or less.
+4. Display: The summary is then presented to the user, offering a quick and insightful overview of the video's content.
 
 ## Model Card
 
-Uses: Primarily intended for summarizing educational videos, lectures, tutorials, and any content-rich video on YouTube that users wish to consume in a condensed form.
-Source: Utilizes publicly accessible YouTube video transcripts and Google's Gemini Pro AI for summarization.
-Permissions: Deployed with user privacy in mind; does not store video data or transcripts post-processing. Users should ensure they have the right to process the video content through this tool.
-Code and Libraries: Built with Python, utilizing Streamlit for the web interface, dotenv for environment variable management, the youtube_transcript_api for transcript extraction, and Google's generativeai Python client for AI-driven summary generation.
+**Uses**: Primarily intended for summarizing educational videos, lectures, tutorials, and any content-rich video on YouTube that users wish to consume in a condensed form.
+
+**Source**: Utilizes publicly accessible YouTube video transcripts and Google's Gemini Pro AI for summarization.
+
+**Permissions**: Deployed with user privacy in mind; does not store video data or transcripts post-processing. Users should ensure they have the right to process the video content through this tool.
+
+**Code and Libraries**: Built with Python, utilizing Streamlit for the web interface, dotenv for environment variable management, the youtube_transcript_api for transcript extraction, and Google's generativeai Python client for AI-driven summary generation.
 
 ## Critical Analysis
 
@@ -25,9 +28,9 @@ The YouTube Video Summarizer stands at the intersection of content accessibility
 
 ## Next Steps
 
-Enhance accuracy with model fine-tuning based on user feedback.
-Expand the summarization capabilities to include multi-language support.
-Explore integration with other video platforms and content formats.
+1. Enhance accuracy with model fine-tuning based on user feedback.
+2. Expand the summarization capabilities to include multi-language support.
+3. Explore integration with other video platforms and content formats.
 
 ## Resource Links
 
