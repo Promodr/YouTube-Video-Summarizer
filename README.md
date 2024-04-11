@@ -1,5 +1,6 @@
 # YouTube-Video-Summarizer
 
+![Alt text](images/pic.png)
 
 ## Overview
 
