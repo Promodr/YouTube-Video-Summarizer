@@ -61,7 +61,7 @@ This is an python API which allows you to get the transcripts/subtitles for a gi
 
 ## Critical Analysis
 
-The YouTube Video Summarizer stands at the intersection of content accessibility and AI, showcasing how machine learning can be harnessed to distill vast amounts of information into digestible summaries. This project underscores the potential of AI in educational technology, providing a gateway to more efficient learning and content review. However, the reliance on AI-generated summaries also raises questions about accuracy and the potential for missing nuanced information. 
+The YouTube Video Summarizer stands at the intersection of content accessibility and AI, showcasing how machine learning can be harnessed to distill vast amounts of information into digestible summaries. This project shows the potential of AI in educational technology, providing a gateway to more efficient learning and content review. However, the reliance on AI-generated summaries also raises questions about accuracy and the potential for missing nuanced information. 
 
 Future iterations could explore integrating user feedback mechanisms to improve summary quality and exploring model transparency and interpretability.
 
