@@ -12,7 +12,7 @@ The YouTube Video Summarizer is a solution designed to enhance the learning and 
 3. Summary Generation: Google's Gemini Pro model processes the transcript with a predefined prompt to generate a summary that highlights key points in 250 words or less.
 4. Display: The summary is then presented to the user, offering a quick and insightful overview of the video's content.
 
-## Model Architecture of Gemini Pro
+## Gemini Pro
 
 ![Alt text](images/gemini.png)
 
