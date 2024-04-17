@@ -30,9 +30,7 @@ Output Decoders: After processing the inputs, the Transformer core can produce t
 Image Decoder: Outputs visual content, likely using discrete image tokens inspired by works like DALL-E (Ramesh et al., 2021).
 Text Decoder: Outputs textual content.
 
-The model architecture is flexible enough to handle a sequence of inputs that includes text, images, audio, and video (as seen in Figure 2 from your description). It can output responses with interleaved images and text, reflecting a deep understanding of the input media.
-
-The text description accompanying the image suggests that Gemini models draw on foundational work from other multimodal models like Flamingo, CoCa, and PaLI. They are distinct in that they are multimodal from the outset and can natively output images.
+The model architecture is flexible enough to handle a sequence of inputs that includes text, images, audio, and video (as seen in Figure 2 from your description). It can output responses with interleaved images and text, reflecting a deep understanding of the input media.Gemini models also draw on foundational work from other multimodal models like Flamingo, CoCa, and PaLI. They are distinct in that they are multimodal from the outset and can natively output images.
 
 For video, Gemini models can encode it frame-by-frame in a large context window, allowing for a nuanced understanding of the video content. With audio, they can directly process 16kHz audio features from the Universal Speech Model (USM), capturing subtleties often missed when converting audio to text.
 
