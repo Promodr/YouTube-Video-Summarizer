@@ -40,6 +40,7 @@ For video, Gemini models can encode it frame-by-frame in a large context window,
 The training of Gemini models represents significant innovation in training algorithms, datasets, and infrastructure, with different model sizes optimized for various tasks, including on-device experiences. The Pro model leverages scalability for efficient pre-training, while the Nano series uses advancements in distillation and training for compact, yet powerful, language models.
 
 ## Gemini vs ChatGPT: Key Differences
+![Alt text](images/differences.png)
 
 Conversational learning: ChatGPT can learn from the conversations it has with people and “hold context”, whereas Gemini does this in a much more limited way at the moment.
 
