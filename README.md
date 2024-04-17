@@ -44,17 +44,17 @@ The training of Gemini models represents significant innovation in training algo
 
 Gemini’s strengths:
 
-Better at combining text, images, video, and other formats (multimodal tasks)
-Generates up-to-date content 
-The most advanced Gemini model has a content window of 1 million tokens
-Gemini will produce multiple responses to queries you pose to it, which you can access by pressing “View Drafts.
+1. Better at combining text, images, video, and other formats (multimodal tasks)
+2. Generates up-to-date content 
+3. The most advanced Gemini model has a content window of 1 million tokens
+4. Gemini will produce multiple responses to queries you pose to it, which you can access by pressing “View Drafts.
 
 GPT-4’s strengths: 
 
-More efficient and accurate at language tasks
-Edges out Gemini in tests of language understanding and common sense. ChatGPT can learn from the conversations it has with people and “hold context”, whereas Gemini does this in a much more limited way at the moment.
-Generates safer and less biased content
-Has better speech recognition than Gemini
+1. More efficient and accurate at language tasks
+2. Edges out Gemini in tests of language understanding and common sense. ChatGPT can learn from the conversations it has with people and “hold context”, whereas Gemini does this in a much more limited way at the moment.
+4. Generates safer and less biased content
+5. Has better speech recognition than Gemini
 
 
 ## Youtube-transcript-api
@@ -75,7 +75,11 @@ Future iterations could explore integrating user feedback mechanisms to improve 
 
 ## Resource Links
 
-Streamlit Documentation
-Google Gemini Pro API Guide
+Gemini Pro Technical Document
+https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+
 YouTube Transcript API
-Papers With Code - For the latest research on text summarization and AI models.
+https://pypi.org/project/youtube-transcript-api/#description
+
+https://fireflies.ai/blog/gemini-vs-gpt-4
+https://tech.co/news/google-bard-vs-chatgpt#:~:text=GPT%2D4%2C%20available%20to%20only,1.8%20and%203.25%20billion%20parameters.
