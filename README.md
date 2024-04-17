@@ -15,6 +15,8 @@ The YouTube Video Summarizer is a solution designed to enhance the learning and 
 
 ## Model Architecture of Gemini Pro
 
+![Alt text](images/gemini.png)
+
 Gemini models are advanced multimodal systems that integrate multiple types of inputs to produce both textual and visual outputs.
 
 Input Sequence: The Gemini model accepts various input types which are represented by different colored icons:
@@ -36,6 +38,10 @@ The text description accompanying the image suggests that Gemini models draw on 
 For video, Gemini models can encode it frame-by-frame in a large context window, allowing for a nuanced understanding of the video content. With audio, they can directly process 16kHz audio features from the Universal Speech Model (USM), capturing subtleties often missed when converting audio to text.
 
 The training of Gemini models represents significant innovation in training algorithms, datasets, and infrastructure, with different model sizes optimized for various tasks, including on-device experiences. The Pro model leverages scalability for efficient pre-training, while the Nano series uses advancements in distillation and training for compact, yet powerful, language models
+
+## Youtube-transcript-api
+
+This is an python API which allows you to get the transcripts/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headless browser, like other selenium based solutions do!
 
 **Uses**: Primarily intended for summarizing educational videos, lectures, tutorials, and any content-rich video on YouTube that users wish to consume in a condensed form.
 
