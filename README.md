@@ -37,19 +37,25 @@ The text description accompanying the image suggests that Gemini models draw on 
 
 For video, Gemini models can encode it frame-by-frame in a large context window, allowing for a nuanced understanding of the video content. With audio, they can directly process 16kHz audio features from the Universal Speech Model (USM), capturing subtleties often missed when converting audio to text.
 
-The training of Gemini models represents significant innovation in training algorithms, datasets, and infrastructure, with different model sizes optimized for various tasks, including on-device experiences. The Pro model leverages scalability for efficient pre-training, while the Nano series uses advancements in distillation and training for compact, yet powerful, language models
+The training of Gemini models represents significant innovation in training algorithms, datasets, and infrastructure, with different model sizes optimized for various tasks, including on-device experiences. The Pro model leverages scalability for efficient pre-training, while the Nano series uses advancements in distillation and training for compact, yet powerful, language models.
+
+## Gemini vs ChatGPT: Key Differences
+
+Conversational learning: ChatGPT can learn from the conversations it has with people and “hold context”, whereas Gemini does this in a much more limited way at the moment.
+
+Drafts: Gemini will produce multiple responses to queries you pose to it, which you can access by pressing “View Drafts.” ChatGPT only produces a single answer to each query.
+
+Response editing: Gemini will let you edit responses after you’ve sent them, whereas you can’t do this with ChatGPT.
+
+Real-time access to the Internet: Gemini has always been able to access the Internet in real-time, whereas ChatGPT has only just acquired this function and it’s not available on the free version.
+
+Image-based responses: Gemini has always had access to the internet so can source images from Google. Bard Advanced and ChatGPT Plus users can both now generate original AI imagery.
+
+Capacity to read responses aloud: Gemini has native tet-to-speech capabilities, whereas ChatGPT does not.
 
 ## Youtube-transcript-api
 
 This is an python API which allows you to get the transcripts/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headless browser, like other selenium based solutions do!
-
-**Uses**: Primarily intended for summarizing educational videos, lectures, tutorials, and any content-rich video on YouTube that users wish to consume in a condensed form.
-
-**Source**: Utilizes publicly accessible YouTube video transcripts and Google's Gemini Pro AI for summarization.
-
-**Permissions**: Deployed with user privacy in mind; does not store video data or transcripts post-processing. Users should ensure they have the right to process the video content through this tool.
-
-**Code and Libraries**: Built with Python, utilizing Streamlit for the web interface, dotenv for environment variable management, the youtube_transcript_api for transcript extraction, and Google's generativeai Python client for AI-driven summary generation.
 
 ## Critical Analysis
 
