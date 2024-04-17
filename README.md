@@ -42,17 +42,21 @@ The training of Gemini models represents significant innovation in training algo
 ## Gemini vs ChatGPT: Key Differences
 ![Alt text](images/differences.png)
 
-Conversational learning: ChatGPT can learn from the conversations it has with people and “hold context”, whereas Gemini does this in a much more limited way at the moment.
 
-Drafts: Gemini will produce multiple responses to queries you pose to it, which you can access by pressing “View Drafts.” ChatGPT only produces a single answer to each query.
+Gemini’s strengths:
 
-Response editing: Gemini will let you edit responses after you’ve sent them, whereas you can’t do this with ChatGPT.
+Better at combining text, images, video, and other formats (multimodal tasks)
+Generates up-to-date content 
+The most advanced Gemini model has a content window of 1 million tokens
+Gemini will produce multiple responses to queries you pose to it, which you can access by pressing “View Drafts.
 
-Real-time access to the Internet: Gemini has always been able to access the Internet in real-time, whereas ChatGPT has only just acquired this function and it’s not available on the free version.
+GPT-4’s strengths: 
 
-Image-based responses: Gemini has always had access to the internet so can source images from Google. Bard Advanced and ChatGPT Plus users can both now generate original AI imagery.
+More efficient and accurate at language tasks
+Edges out Gemini in tests of language understanding and common sense. ChatGPT can learn from the conversations it has with people and “hold context”, whereas Gemini does this in a much more limited way at the moment.
+Generates safer and less biased content
+Has better speech recognition than Gemini
 
-Capacity to read responses aloud: Gemini has native tet-to-speech capabilities, whereas ChatGPT does not.
 
 ## Youtube-transcript-api
 
