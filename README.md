@@ -1,5 +1,4 @@
-# YouTube-Video-Summarizer
-
+# Using Gemini Pro To Build a YouTube-Video-Summarizer App
 ![Alt text](images/pic2.jpeg)
 
 ## Overview
